@@ -1,0 +1,27 @@
+.About{
+    display:flex;
+    gap:70px;
+    flex-direction:column;
+    align-items: center;
+    margin:80px;
+    padding:50px;
+}
+.About h1{
+    position: relative;
+    font-size:80px;
+    font-weight: 600;
+}
+.About img{
+    position: relative;
+    top:-130px;
+    z-index: -1;
+}
+.my-about{
+    display:flex;
+     gap:60px;
+}
+.my-about-fullimage{
+    border-radius:60px;
+    height:600px;
+    width:auto;
+}

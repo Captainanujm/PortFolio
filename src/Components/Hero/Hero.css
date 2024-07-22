@@ -24,3 +24,35 @@
     margin:20px;
     font-size:20px;
 }
+.button-hero{
+    display:flex;
+    gap:50px;
+}
+.connect-with-me{
+    border-style: none;
+    font-family: outfit;
+    font-size: 20px;
+    color:white;
+    padding:20px;
+    border-radius: 50px;
+    background: linear-gradient(267deg,#DA7C25 0.36%,#B923E1 102.06%);
+    cursor: pointer;
+    transition:0.5s;
+}
+.my-resume{
+    background: transparent;
+    border:2px solid #FFF;
+    color:white;
+    padding:20px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition:0.5s;
+}
+.connect-with-me:hover{
+    border:2px solid white;
+    transform: scale(1.05);
+}
+.my-resume:hover{
+    border:2px solid #b415ff;
+    transform: scale(1.05);
+}
