@@ -17,7 +17,7 @@
 }
 .work-details-container{
     display:grid;
-    gap: 20px;
+    gap: 25px;
     grid-template-columns: 1fr 1fr 1fr;
 }
 .work-card{
@@ -30,6 +30,7 @@
     width:300px;
     border-radius:50px;
     background-color: transparent;
+    transition: 0.5s;
 }
 .work-card>img:hover{
     transform: scale(1.05);
@@ -58,4 +59,8 @@
 }
 .show-more:hover{
     gap:20px;
+}
+.work-card:hover{
+    transform: scale(1.05);
+    background: linear-gradient(45deg,#3f0028,#582300);
 }
